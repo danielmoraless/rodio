@@ -12,12 +12,12 @@ La sintaxis debe ser amigable con nuevos programadores y sumamente familiar para
 Las variables son implícita o explícitamente tipadas.
 
 **Explícitamente:**
-```rod
+```rodio
 <variable_name>: <type> = <variable_value>
 ```
 
 **Implícitamente:**
-```rod
+```rodio
 <variable_name> = <variable_value>
 ```
 
@@ -26,6 +26,6 @@ La diferencia es que en una el tipo ha sido inferido por el compilador (implíci
 Una vez definido el tipo de la variable, de cualquier manera, no se podrá asignar un valor que no sea correspondiente.
 
 #### Ejemplos
-```rod
+```rodio
 my_first_rod_variable: string = "Hello, world!"
 ```
