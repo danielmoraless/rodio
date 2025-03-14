@@ -6,6 +6,13 @@ El objetivo es crear un lenguaje que ofrezca velocidad, control y, sobretodo, fa
 ## Sintaxis
 La sintaxis debe ser amigable con nuevos programadores y sumamente familiar para los ya establecidos.
 
+### Tipos de datos
+| Data type | Syntax | Description
+| :---: | :---: | :---: |
+| natural | nat | Equivalent to `unsigned int` in C |
+| integer | int | Equivalent to `int` in C |
+| string | string | Array of characters |
+
 ### Comentarios
 Se utilizará doble slash (`//`) para comentarios de una sola línea y dos asteriscos entre dos slashes (`/* */`) para comentarios de varias líneas.
 
@@ -40,5 +47,14 @@ Una vez definido el tipo de la variable, de cualquier manera, no se podrá asign
 
 #### Ejemplos
 ```rodio
-my_first_rod_variable: string = "Hello, world!"
+// --- Explicitly typed variables ---
+number_variable: int = 2025             // Variable of type int (integer)
+
+text_variable: string = "Hello, world!" // Variable of type string
+
+
+// --- Implicitly typed variable ---
+another_number_variable = 2032       // Variable of type number, inferred by compiler
+
+another_text_variable = "Say hi! :D" // Variable of type string, inferred by compiler
 ```
