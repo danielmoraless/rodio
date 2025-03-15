@@ -63,7 +63,7 @@ text_variable: string = "Hello, world!" // Variable of type string
 ```rodio
 
 // --- Implicitly typed variable ---
-another_number_variable = 2032       // Variable of type number, inferred by compiler
+another_number_variable = 2032       // Variable of type nat, inferred by compiler
 
 another_text_variable = "Say hi! :D" // Variable of type string, inferred by compiler
 ```
