@@ -10,8 +10,8 @@ La sintaxis debe ser amigable con nuevos programadores y sumamente familiar para
 | Data type | Syntax | Description | Size (bits)
 | :---: | :---: | :---: | :---: |
 | byte | byte | 8-bits byte. | >= 8 |
-| natural | nat | It covers the set of numbers equal to or greater than zero: $x \in [0, \infty)$. | >= 32 |
-| integer | int | The set of all integers $Z$. | >= 32 |
+| natural | nat | It covers the set of numbers equal to or greater than zero. | >= 32 |
+| integer | int | The set of all integers. | >= 32 |
 | float | float | Floating-point numbers. | >= 32 |
 | string | string | Array of characters. | >= 8 |
 | boolean | bool | Integer number that only takes values of 1 (`true`) or 0 (`false`). | 1 |
