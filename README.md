@@ -9,9 +9,12 @@ La sintaxis debe ser amigable con nuevos programadores y sumamente familiar para
 ### Tipos de datos
 | Data type | Syntax | Description
 | :---: | :---: | :---: |
-| natural | nat | Equivalent to `unsigned int` in C |
-| integer | int | Equivalent to `int` in C |
-| string | string | Array of characters |
+| byte | byte | 8-bits byte. |
+| natural | nat | Equivalent to `unsigned int` in C. |
+| integer | int | Equivalent to `int` in C. |
+| float | float | Floating-point numbers. |
+| string | string | Array of characters. |
+| boolean | bool | Integer number that only takes values of 1 (`true`) or 0 (`false`). |
 
 ### Comentarios
 Se utilizará doble slash (`//`) para comentarios de una sola línea y dos asteriscos entre dos slashes (`/* */`) para comentarios de varias líneas.
@@ -19,7 +22,8 @@ Se utilizará doble slash (`//`) para comentarios de una sola línea y dos aster
 #### Ejemplos
 ```rodio
 // This is a single line comment.
-
+```
+```rodio
 /*
 This is another type of comment.
 You can write multiple lines.
@@ -51,7 +55,8 @@ Una vez definido el tipo de la variable, de cualquier manera, no se podrá asign
 number_variable: int = 2025             // Variable of type int (integer)
 
 text_variable: string = "Hello, world!" // Variable of type string
-
+```
+```rodio
 
 // --- Implicitly typed variable ---
 another_number_variable = 2032       // Variable of type number, inferred by compiler
