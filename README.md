@@ -7,14 +7,18 @@ El objetivo es crear un lenguaje que ofrezca velocidad, control y, sobretodo, fa
 La sintaxis debe ser amigable con nuevos programadores y sumamente familiar para los ya establecidos.
 
 ### Tipos de datos
-| Data type | Syntax | Description
-| :---: | :---: | :---: |
-| byte | byte | 8-bits byte. |
-| natural | nat | Equivalent to `unsigned int` in C. |
-| integer | int | Equivalent to `int` in C. |
-| float | float | Floating-point numbers. |
-| string | string | Array of characters. |
-| boolean | bool | Integer number that only takes values of 1 (`true`) or 0 (`false`). |
+| Data type | Syntax | Description | Size (bits)
+| :---: | :---: | :---: | :---: |
+| byte | byte | 8-bits byte. | >= 8 |
+| natural | nat | It covers the set of numbers equal to or greater than zero: $x \epsilon [0, +\infty)$. | >= 32 |
+| integer | int | The set of all integers $Z$. | >= 32 |
+| float | float | Floating-point numbers. | >= 32 |
+| string | string | Array of characters. | >= 8 |
+| boolean | bool | Integer number that only takes values of 1 (`true`) or 0 (`false`). | 1 |
+
+> [!IMPORTANT]
+> En algunos casos no es especificado el valor máximo que pueda tomar un dato. Esto NO significa que dicho valor sea infinito, sino que está indefinido. En realidad, el límite estará establecido por el objetivo de compilación.
+
 
 ### Comentarios
 Se utilizará doble slash (`//`) para comentarios de una sola línea y dos asteriscos entre dos slashes (`/* */`) para comentarios de varias líneas.
