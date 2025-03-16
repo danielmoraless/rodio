@@ -67,3 +67,27 @@ another_number_variable = 2032       // Variable of type nat, inferred by compil
 
 another_text_variable = "Say hi! :D" // Variable of type string, inferred by compiler
 ```
+
+### Constantes
+```rodio
+const <constant_name>: <type> = <constant_value>
+```
+
+#### Ejemplo
+```rodio
+const MIN_INT: int = 2147483646
+```
+
+### Funciones
+```rodio
+function <function_name>(<argument>: <argument_type>, ...) -> <return_type> {
+  return <return_value>
+}
+```
+
+#### Ejemplo
+```rodio
+function sum_of_two(a: int, b: int) -> int {
+  return a + b
+}
+```
