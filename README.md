@@ -23,10 +23,10 @@ La sintaxis debe ser amigable con nuevos programadores y sumamente familiar para
 #### Operadores matemáticos
 | Operation | Operand | Example |
 | :-------: | :-----: | :-----: |
-| Addition | `+` | `1 + 1` |
-| Subtract | `-` | `3 - 2` |
-| Multiplication | `*` | `10 * 10` |
-| Division | `/` | `50 / 2` |
+| Addition | + | `1 + 1` |
+| Subtract | - | `3 - 2` |
+| Multiplication | * | `10 * 10` |
+| Division | / | `50 / 2` |
 
 #### Operadores de comparación
 | Operand | Logical equivalence | Example |
