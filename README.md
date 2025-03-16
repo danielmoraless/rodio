@@ -38,6 +38,13 @@ La sintaxis debe ser amigable con nuevos programadores y sumamente familiar para
 | <= | Less than or equal to | `a <= b` |
 | >= | Greater than or equal to | `a >= b` |
 
+#### Operadores lógicos
+| Operand | Description | Example |
+| :-----: | :---------: | :-----: |
+| ! | Logical not. Invert the result. | `!(a == b)` |
+| and | Returns true if both conditions are met, false otherwise. | `a == b and c == d` |
+| or | Returns true if one of the conditions is met, false if none of the conditions is met. | `a == b or c == d` |
+
 ### Comentarios
 Se utilizará doble slash (`//`) para comentarios de una sola línea y dos asteriscos entre dos slashes (`/* */`) para comentarios de varias líneas.
 
