@@ -28,6 +28,14 @@ La sintaxis debe ser amigable con nuevos programadores y sumamente familiar para
 | Multiplication | * | `10 * 10` |
 | Division | / | `50 / 2` |
 
+#### Operadores de asignación
+| Operand | Example | Equivalence |
+| :-----: | :---------: | :-----: |
+| += | `x += a` | `x = x + a` |
+| -= | `x -= a` | `x = x - a` |
+| *= | `x *= a` | `x = x * a` |
+| /= | `x /= a` | `x = x / a` |
+
 #### Operadores de comparación
 | Operand | Logical equivalence | Example |
 | :-----: | :-----------------: | :-----: |
