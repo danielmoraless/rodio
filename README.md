@@ -27,6 +27,7 @@ La sintaxis debe ser amigable con nuevos programadores y sumamente familiar para
 | Subtract | - | `3 - 2` |
 | Multiplication | * | `10 * 10` |
 | Division | / | `50 / 2` |
+| Module | % | `13 % 12` |
 
 #### Operadores de asignación
 | Operand | Example | Equivalence |
