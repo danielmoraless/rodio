@@ -49,7 +49,7 @@ La sintaxis debe ser amigable con nuevos programadores y sumamente familiar para
 #### Operadores lógicos
 | Operand | Description | Example |
 | :-----: | :---------: | :-----: |
-| ! | Logical not. Invert the result. | `!(a == b)` |
+| not | Logical not. Invert the result. | `not a == b` |
 | and | Returns true if both conditions are met, false otherwise. | `a == b and c == d` |
 | or | Returns true if one of the conditions is met, false if none of the conditions is met. | `a == b or c == d` |
 
