@@ -36,6 +36,8 @@ La sintaxis debe ser amigable con nuevos programadores y sumamente familiar para
 | -= | `x -= a` | `x = x - a` |
 | *= | `x *= a` | `x = x * a` |
 | /= | `x /= a` | `x = x / a` |
+| ++ |   `x++`  | `x = x + 1` |
+| -- |   `x--`  | `x = x - 1` |
 
 #### Operadores de comparación
 | Operand | Logical equivalence | Example |
