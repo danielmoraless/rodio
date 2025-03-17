@@ -124,3 +124,84 @@ function sum_of_two(a: int, b: int) -> int {
   return a + b
 }
 ```
+
+### Condicionales
+- **If**
+```rodio
+if <condition> {
+  // code to execute if <condition> is true
+}
+```
+
+- **Inline If**
+```rodio
+if <condition>: /* code to execute */
+```
+
+- **If, else**
+```rodio
+if <condition> {
+  // code to execute if <condition> is true
+} else {
+  // code to execute if <condition> is false
+}
+```
+
+- **If, else if**
+```rodio
+if <condition> {
+  // code to execute if <condition> is true
+} else if <condition_2> {
+  // code to execute if <condition> is false and <condition_2> is true
+}
+```
+
+#### Examples
+Example 1:
+```rodio
+// Using if conditional statement
+
+const mineral: string = "rodio"
+what_mineral_is = ""
+
+if mineral == "rodio" {
+  mineral_name = "obviously rodio"
+}
+```
+
+Example 2:
+```rodio
+// Using inline if
+
+age: nat = 18
+can_drink: bool = false
+
+if age >= 18: can_drink = true
+```
+
+Example 3:
+```rodio
+// Using if, else
+
+weight: float = 0.0123
+
+if weight >= 0 {
+  weight = -1.0
+} else {
+  weight += 1
+}
+```
+
+Example 4
+```rodio
+// Using if, else if
+
+username = "rodier"
+user_description = ""
+
+if username == "rodier" {
+  user_description = "I'm a superpowered programmer!"
+} else if username == "daniel" {
+  user_description = "LEARN RODIO!!!"
+}
+```
