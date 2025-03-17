@@ -218,7 +218,7 @@ for <variable>; <condition>; <assignment_operation> {
 }
 ```
 
-#### Example:
+#### Example
 ```rodio
 const n = 25
 
