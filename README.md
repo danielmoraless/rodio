@@ -121,7 +121,9 @@ function <function_name>(<argument>: <argument_type>, ...) -> <return_type> {
 #### Ejemplo
 ```rodio
 function sum_of_two(a: int, b: int) -> int {
-  return a + b
+  result = a + b
+
+  return result
 }
 ```
 
