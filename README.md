@@ -208,3 +208,24 @@ if username == "rodier" {
   user_description = "LEARN RODIO!!!"
 }
 ```
+
+### For loop
+```rodio
+for <variable>; <condition>; <assignment_operation> {
+  // code to be executed while <condition> is true
+}
+```
+
+#### Example:
+```rodio
+const n = 25
+
+summation_with_loop = 0
+summation_with_formula = 0
+
+for i = 1; i <= n; i++ {
+  summation_with_loop += i
+}
+
+summation_with_formula = (n * n + n) / 2
+```
