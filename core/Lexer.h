@@ -3,8 +3,7 @@
 
 namespace RodioCore {
     enum TokenType {
-        EXPR_ID,            // Keywords like const, function, for, if, ...
-        GENERAL_ID,         // Name of constants, variables, functions, etc
+        IDENTIFIER,
         DATA_TYPE,
         // Operators
         MATH_OP,
