@@ -1,3 +1,5 @@
+// Copyright (c) 2025 Daniel H. Morales J.
+
 #ifndef RODIO_CORE_LEXER_H
 #define RODIO_CORE_LEXER_H
 
